@@ -1,0 +1,21 @@
+.projects-filter span {
+  margin: 0 2%;
+  font-size: 20px;
+}
+
+.projects-filter span:hover {
+  color: #32e0c4;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .projects-filter span {
+    margin: 0 4%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .projects-filter span {
+    margin: 0 3%;
+  }
+}

@@ -1,0 +1,15 @@
+.skill {
+  border: none;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-bottom: 30%;
+}
+
+.skill i {
+  margin-bottom: 13%;
+}
+
+.skill span {
+  font-size: 13px;
+  font-weight: 400;
+}

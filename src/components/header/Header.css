@@ -1,0 +1,30 @@
+.header {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.header hr {
+  width: 5%;
+  height: 3px;
+  background-color:  #616161;
+  margin: 0 auto 0;
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 15%;
+  }
+  .header hr {
+    width: 18%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    margin-bottom: 10%;
+  }
+  .header hr {
+    width: 8%;
+  }
+}

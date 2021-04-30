@@ -1,0 +1,475 @@
+/*** Main ***/
+body {
+  font-family: "Roboto Slab", serif;
+  color: #1b262c;
+  position: relative;
+}
+
+/*** Navbar ***/
+#home-navbar {
+  padding: 0 13%;
+  background-color: #32312F;
+}
+
+#home-navbar img {
+  height: 100px;
+}
+
+#home-navbar .navbar-nav li {
+  margin: 0 5%;
+}
+
+#home-navbar .navbar-nav .nav-item a {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#home-navbar .navbar-nav .nav-item a:hover {
+  color: #32e0c4;
+}
+
+#home-navbar .navbar-toggler {
+  border: solid #e7305b;
+}
+
+
+/*** Introduction ***/
+#introduction {
+  height: 100vh;
+  background-color: #32312F;
+  text-align: center;
+  color: white;
+}
+
+.introduction-content {
+  padding-top: 15%;
+}
+
+.introduction-content h1 {
+  font-size: 62px;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+}
+
+.introduction-content span {
+  color: #32e0c4;
+  border-bottom: solid #32e0c4;
+}
+
+.introduction-content p {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 2%;
+}
+
+.introduction-content button {
+  color: white;
+  padding: 0.8% 2%;
+  font-size: 18px;
+  border: solid #e7305b;
+}
+
+.introduction-content button:hover {
+  background-color: #32e0c4;
+}
+
+
+@media (max-width: 480px) {
+  .introduction-content {
+    padding-top: 60%;
+  }
+  .introduction-content h1 {
+    font-size: 38px;
+    margin-bottom: 5%;
+  }
+  .introduction-content p {
+    font-size: 18px;
+    margin-bottom: 5%;
+  }
+  .introduction-content button {
+    padding: 3% 6%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .introduction-content {
+    padding-top: 40%;
+  }
+  .introduction-content h1 {
+    font-size: 50px;
+    margin-bottom: 4%;
+  }
+  .introduction-content p {
+    font-size: 20px;
+    margin-bottom: 4%;
+  }
+  .introduction-content button {
+    padding: 1.8% 4.5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .introduction-content {
+    padding-top: 20%;
+  }
+  .introduction-content h1 {
+    font-size: 45px;
+  }
+  .introduction-content p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .introduction-content {
+    padding-top: 22%;
+  }
+  .introduction-content h1 {
+    font-size: 50px;
+    margin-bottom: 3%;
+  }
+  .introduction-content p {
+    font-size: 20px;
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .introduction-content {
+    padding-top: 25%;
+  }
+}
+
+/*** About ***/
+#about {
+  background-color: #f7f7f7;
+  padding: 5% 20%;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 80%;
+  border: solid #e7305b;
+}
+
+.focus {
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.focus h5 {
+  margin-bottom: 2%;
+}
+
+.focus p {
+  text-align: left;
+  font-size: 17px;
+}
+
+.focus .emphasis {
+  color: #32e0c4;
+  border-bottom: solid 2px #e7305b;
+  font-weight: 600;
+}
+
+.frontend-skills {
+  margin-bottom: 2%;
+}
+
+.frontend-skills p, .backend-skills p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  #about {
+    padding: 10% 7%;
+  }
+  #about img {
+    margin-left: 10%;
+  }
+  .focus {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  .focus h5 {
+    margin-bottom: 5%;
+  }
+  .frontend-skills {
+    margin-bottom: 8%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #about {
+    padding: 8% 8%;
+  }
+  #about img {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .focus {
+    margin-top: 10%;
+  }
+  .focus h5 {
+    margin-bottom: 3%;
+  }
+  .frontend-skills {
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  #about {
+    padding: 6% 13%;
+  }
+  .frontend-skills {
+    margin-bottom: 1%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #about {
+    padding: 8% 4%;
+  }
+  #about img {
+    margin-top: 15%;
+  }
+  .frontend-skills {
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #about {
+    padding: 5% 13%;
+  }
+}
+
+
+/*** Projects ***/
+#projects {
+  padding: 5% 20%;
+}
+
+.projects-filter {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+@media (max-width: 480px) {
+  #projects {
+    padding: 10% 7%;
+  }
+  .projects-filter {
+    margin-bottom: 11%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #projects {
+    padding: 8% 8%;
+  }
+  .projects-filter {
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  #projects {
+    padding: 6% 13%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #projects {
+    padding: 8% 4%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #projects {
+    padding: 5% 13%;
+  }
+}
+
+/*** Contact  ***/
+#contact {
+  padding: 5% 20%;
+  background-color: #444c5c;
+  text-align: center;
+}
+
+#contact h1 {
+  color: white;
+}
+
+#contact hr {
+  background-color: white;
+}
+
+#contact p {
+  color: #32e0c4;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+#contact input, #contact textarea {
+  width: 50%;
+  padding: 0.8% 4%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1%;
+  color: #1b262c;
+}
+
+#contact button {
+  color: white;
+  padding: 1% 3%;
+  border: solid #e7305b
+}
+
+#contact button:hover {
+  background-color: #32e0c4;
+}
+
+
+#contact .form-detail {
+  position: relative;
+}
+
+#contact i {
+  position: absolute;
+  color: #e7305b;
+}
+
+#contact .fa-user, #contact .fa-envelope {
+  top: 23%;
+  left: 26%;
+}
+
+#contact .fa-pen-alt {
+  top: 5%;
+  left: 26%;
+}
+
+@media (max-width: 480px) {
+  #contact {
+    padding: 10% 7%;
+  }
+  #contact p {
+    margin-bottom: 6%;
+  }
+  #contact input, #contact textarea {
+    padding: 2% 8%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  #contact .fa-user, #contact .fa-envelope {
+    top: 25%;
+    left: 7%;
+  }
+  #contact .fa-pen-alt {
+    left: 7%;
+    top: 4%;
+  }
+  #contact button {
+    padding: 2.5% 7%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #contact {
+    padding: 8% 8%;
+  }
+  #contact input, #contact textarea {
+    padding: 1.5% 6%;
+    width: 80%;
+    margin-bottom: 2%;
+  }
+  #contact .fa-user, #contact .fa-envelope,   #contact .fa-pen-alt  {
+    left: 12%;
+  }
+  #contact button {
+    padding: 2% 6%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  #contact {
+    padding: 5% 13%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #contact {
+    padding: 8% 4%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #contact {
+    padding: 5% 13%;
+  }
+}
+
+/*** Footer ***/
+.footer {
+  background-color: #32312F;
+  text-align: center;
+  padding: 3% 20% 1%;
+}
+
+.footer i {
+  color: #616161;
+  margin: 0 1.5% 2%;
+}
+
+.footer i:hover {
+  color: #32e0c4;
+}
+
+.footer p {
+  color: #8f9aa7;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer span {
+  color: #32e0c4;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 13% 7% 3%;
+  }
+  .footer i {
+    margin: 0 3% 4%;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    padding: 8% 8% 2%;
+  }
+  .footer i {
+    margin: 0 2% 3%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    padding: 7% 4% 2%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .footer {
+    padding: 5% 13% 1%;
+  }
+}
