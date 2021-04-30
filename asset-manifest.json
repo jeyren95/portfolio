@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aa3a4be7.chunk.css",
+    "main.js": "/portfolio/static/js/main.2b61f670.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b61f670.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
+    "static/js/2.a181782f.chunk.js": "/portfolio/static/js/2.a181782f.chunk.js",
+    "static/js/2.a181782f.chunk.js.map": "/portfolio/static/js/2.a181782f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.aa3a4be7.chunk.css.map": "/portfolio/static/css/main.aa3a4be7.chunk.css.map",
+    "static/js/2.a181782f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a181782f.chunk.js.LICENSE.txt",
+    "static/media/ip-address-tracker-app.b5a4c851.jpg": "/portfolio/static/media/ip-address-tracker-app.b5a4c851.jpg",
+    "static/media/launch-countdown-timer-app.3cf67d2b.jpg": "/portfolio/static/media/launch-countdown-timer-app.3cf67d2b.jpg",
+    "static/media/profile.cc107478.jpg": "/portfolio/static/media/profile.cc107478.jpg",
+    "static/media/rest-countries-api-app.153b5f29.jpg": "/portfolio/static/media/rest-countries-api-app.153b5f29.jpg",
+    "static/media/rock-paper-scissors-app.e8b63bc7.jpg": "/portfolio/static/media/rock-paper-scissors-app.e8b63bc7.jpg",
+    "static/media/todo-app.f7b55bdf.jpg": "/portfolio/static/media/todo-app.f7b55bdf.jpg",
+    "static/media/zenith-advisors.9b1f24ea.jpg": "/portfolio/static/media/zenith-advisors.9b1f24ea.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76232b81.js",
+    "static/js/2.a181782f.chunk.js",
+    "static/css/main.aa3a4be7.chunk.css",
+    "static/js/main.2b61f670.chunk.js"
+  ]
+}
