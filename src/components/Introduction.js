@@ -19,13 +19,13 @@ class Introduction extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#about">ABOUT</a>
+                <a className="nav-link" href="/portfolio/#about">ABOUT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">PORTFOLIO</a>
+                <a className="nav-link" href="/portfolio/#projects">PORTFOLIO</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">CONTACT</a>
+                <a className="nav-link" href="/portfolio/#contact">CONTACT</a>
               </li>
             </ul>
           </div>
