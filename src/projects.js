@@ -23,7 +23,7 @@ const projects = [{
   type: "React Web Apps",
   urlLink: "https://launch-countdown-timer-class.vercel.app/"
 }, {
-  name: "Search Country Info App",
+  name: "REST Countries API App",
   imageLink: restCountriesAPIApp,
   type: "React Web Apps",
   urlLink: "https://rest-countries-api-with-color-theme-switcher-redux.vercel.app/"
