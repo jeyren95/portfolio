@@ -3,11 +3,17 @@ import rockPaperScissorsApp from "./images/projects/rock-paper-scissors-app.jpg"
 import launchCountdownTimerApp from "./images/projects/launch-countdown-timer-app.jpg";
 import restCountriesAPIApp from "./images/projects/rest-countries-api-app.jpg";
 import ipAddressTrackerApp from "./images/projects/ip-address-tracker-app.jpg";
+import calculatorApp from "./images/projects/calculator-app.jpg";
 
 import zenithAdvisors from "./images/projects/zenith-advisors.jpg";
 
 
 const projects = [{
+    name: "Calculator App",
+    imageLink: calculatorApp,
+    type: "React Web Apps",
+    urlLink: "https://calculator-app-class.vercel.app/"
+}, {
   name: "To Do App",
   imageLink: todoApp,
   type: "React Web Apps",
@@ -38,9 +44,6 @@ const projects = [{
   type: "Websites",
   urlLink: "https://zenithadvisors.sg/"
 }
-
-
-
 ]
 
 export default projects
